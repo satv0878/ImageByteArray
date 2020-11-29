@@ -1,9 +1,9 @@
-from ImageReader.ImageReader import readFile
+from ImageReader.ImageReader import processImage
 
 
 def main():
     print("Hello World!")
-    readFile('tests/mouse.jpg')
+    processImage('tests/mouse.jpg')
 
 if __name__ == "__main__":
     main()
