@@ -1,9 +1,11 @@
-from ImageReader.ImageReader import processImage
+from ImageReader.ImageReader import readArrayFromFile
 
 
 def main():
     print("Hello World!")
-    processImage('tests/mouse.jpg')
+    readArrayFromFile()
+    #processImage('tests/mouse.jpg')
+
 
 if __name__ == "__main__":
     main()
